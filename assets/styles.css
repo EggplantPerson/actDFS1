@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+header {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+p {
+    text-align: center;
+    color: white
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+h3 {
+    text-align: center;
+    color: white;
+}
+img {
+    width: 520px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+.social {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    margin: auto;
+}
+.layout {
+    position:absolute;
+    left: 88%;
+    top: auto;
+    transform: translate(-50%, -50%);
+    display: grid;
+    margin:0 auto;
+    grid-template-columns: 100px 100px 100px;
+    gap: 20px;
+}
+.foot {
+    color: gray;
+    text-align: left;
+}
